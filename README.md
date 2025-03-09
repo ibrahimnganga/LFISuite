@@ -47,7 +47,7 @@ When you got a LFI shell by using one of the available attacks, you can easily o
 
 > When you run the script, in case you are missing some modules, it will check if you have <b>pip</b> installed and, in case you don't, it will install it <b>automatically</b>, then using pip it will install also the missing modules and download the necessary file <b>socks.py</b>.<br>I tried it on different operating systems (Debian,Ubuntu,Fedora,Windows 10,OS X) and it worked great, but if something strange happens to you and the automatic installation of pip and other modules fails, please install missing modules manually and re-run the script.
 <br>As it is dependent on <b>Python</b> <b>2.7</b>, it is better to first change the <b>lfisuite.py</b> code from <b>Python</b> <b>2</b> to <b>Python</b> <b>3</b> using the <b>2t03</b> tool for Debian operating systems.
-> python lfisuite.py
+<br> python lfisuite.py
   File "/home/acid/LFISuite/lfisuite.py", line 121
     print colored("[WARNING] Make sure to have your netcat listening ('nc -lvp port') before going ahead.","red")
     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
